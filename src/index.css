@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.gradient-01 {
+    position: absolute;
+    width: 300px;
+    height: 338px;
+    top: -8rem;
+    left: -4rem;
+    background: #6294cbc8;
+    filter: blur(225px);
+}
+
+.gradient-02 {
+    position: absolute;
+    width: 200px;
+    height: 238px;
+    top: -6rem;
+    right: 0;
+    background: #29a8dacd;
+    filter: blur(190px);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0d192600;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #070e169c;
+    border-radius: 4px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
